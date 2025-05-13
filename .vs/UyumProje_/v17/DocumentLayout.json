@@ -1,0 +1,545 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\viewmodel\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\viewmodel\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\security\\userroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\security\\userroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|c:\\users\\nurba\\documents\\vs community\\uyumproje_\\uyumproje_\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\home\\becomehost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\home\\becomehost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\viewmodel\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\viewmodel\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.UserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Properties.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nurba\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model_.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nurba\\AppData\\Local\\Temp\\fgypr5pn..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Amenities.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\booking\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\booking\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\viewmodel\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\viewmodel\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.BookingStatus.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Booking.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Payments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\views\\booking\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\views\\booking\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\uyumproje_\\methods\\userget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E793C7-6F63-4EC7-B7EA-63FFBF920F15}|UyumProje_\\UyumProje_.csproj|solutionrelative:uyumproje_\\methods\\userget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "UyumProje_\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\nurba\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-08T20:19:00.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Models\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "UyumProje_\\Models\\Model1.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:30:29.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BecomeHost.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Home\\BecomeHost.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Home\\BecomeHost.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Home\\BecomeHost.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Home\\BecomeHost.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T12:10:50.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T08:45:52.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\_Layout.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:10:18.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\ViewModel\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\PaymentViewModel.cs",
+              "RelativeToolTip": "UyumProje_\\ViewModel\\PaymentViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAvwCAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:41:22.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "UyumProje_\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAkwH0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:19:17.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRoleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Security\\UserRoleProvider.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Security\\UserRoleProvider.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Security\\UserRoleProvider.cs",
+              "RelativeToolTip": "UyumProje_\\Security\\UserRoleProvider.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:15:03.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\ViewModel\\BookingViewModel.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\BookingViewModel.cs",
+              "RelativeToolTip": "UyumProje_\\ViewModel\\BookingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T20:12:39.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAQwJ8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T10:09:27.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UyumProje_\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAIMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:24:17.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "UyumProje_\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:40:48.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "UyumProje_\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADgv0UAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:06:46.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Properties.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Properties.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Properties.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T22:08:03.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T21:58:35.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.UserRoles.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.UserRoles.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.UserRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T12:14:00.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Model_.edmx",
+              "DocumentMoniker": "C:\\Users\\nurba\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model_.edmx",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model_.edmx",
+              "ToolTip": "C:\\Users\\nurba\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model_.edmx",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\UyumProje_\\UyumProje_\\Models\\Model_.edmx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-08T20:20:43.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.Amenities.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Amenities.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Amenities.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T12:04:11.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "fgypr5pn..sql",
+              "DocumentMoniker": "C:\\Users\\nurba\\AppData\\Local\\Temp\\fgypr5pn..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\fgypr5pn..sql",
+              "ToolTip": "C:\\Users\\nurba\\AppData\\Local\\Temp\\fgypr5pn..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\fgypr5pn..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T20:12:03.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Booking\\Payment.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Booking\\Payment.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Booking\\Payment.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Booking\\Payment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T10:05:12.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:42:08.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\ViewModel\\AdminViewModel.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\AdminViewModel.cs",
+              "RelativeToolTip": "UyumProje_\\ViewModel\\AdminViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:41:22.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\ViewModel\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\ViewModel\\ProfileViewModel.cs",
+              "RelativeToolTip": "UyumProje_\\ViewModel\\ProfileViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:11:42.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Web.config",
+              "RelativeDocumentMoniker": "UyumProje_\\Web.config",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Web.config",
+              "RelativeToolTip": "UyumProje_\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-08T13:21:25.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Global.asax.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Global.asax.cs",
+              "RelativeToolTip": "UyumProje_\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:23:36.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "dbo.BookingStatus.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.BookingStatus.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.BookingStatus.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T10:07:46.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbo.Booking.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Booking.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Booking.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T10:47:34.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Booking\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Booking\\Create.cshtml",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAYwKwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T10:51:14.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dbo.Payments.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Payments.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_LBTT0F17_SQLEXPRESS/bahar/True/SqlTable/dbo.Payments.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-08T09:50:22.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Booking\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "UyumProje_\\Views\\Booking\\Confirmation.cshtml",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Views\\Booking\\Confirmation.cshtml",
+              "RelativeToolTip": "UyumProje_\\Views\\Booking\\Confirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T09:00:31.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\Booking.cs",
+              "RelativeToolTip": "UyumProje_\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:48:05.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Models\\UserRole.cs",
+              "RelativeToolTip": "UyumProje_\\Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:37:33.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WishListController.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\WishListController.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Controllers\\WishListController.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Controllers\\WishListController.cs",
+              "RelativeToolTip": "UyumProje_\\Controllers\\WishListController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:49:32.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserGet.cs",
+              "DocumentMoniker": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Methods\\UserGet.cs",
+              "RelativeDocumentMoniker": "UyumProje_\\Methods\\UserGet.cs",
+              "ToolTip": "C:\\Users\\nurba\\Documents\\VS Community\\UyumProje_\\UyumProje_\\Methods\\UserGet.cs",
+              "RelativeToolTip": "UyumProje_\\Methods\\UserGet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:48:11.138Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

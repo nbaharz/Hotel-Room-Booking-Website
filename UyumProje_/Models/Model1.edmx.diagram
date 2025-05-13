@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1597000748ab4d29b7dcca4fcdc1b0c7" Name="Diagram1">
+        <EntityTypeShape EntityType="baharModel.Amenity" Width="1.5" PointX="6" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Booking" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.BookingStatu" Width="1.5" PointX="8.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.City" Width="1.5" PointX="3.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Country" Width="1.5" PointX="1.5" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.CreditCard" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.CustomerWishlist" Width="1.5" PointX="6" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Image" Width="1.5" PointX="8.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.ListOfProperty" Width="1.5" PointX="6" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Message" Width="1.5" PointX="3" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Payment" Width="1.5" PointX="5.25" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Property" Width="1.5" PointX="6" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.PropertyAmenity" Width="1.5" PointX="8.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.Review" Width="1.5" PointX="11.25" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.UserRole" Width="1.5" PointX="3" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="baharModel.User" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <AssociationConnector Association="baharModel.FK__PropertyA__Ameni__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Booking__HostID__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Booking__Propert__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Booking__StatusI__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Booking__UserID__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Payments__Bookin__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK_BookingStatus_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__BookingSt__Custo__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__BookingSt__Prope__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__City__CountryID__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Propertie__CityI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Propertie__Count__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__CreditCar__Custo__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__CustomerW__Custo__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__CustomerW__Prope__3493CFA7" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Images__Property__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__ListOfPro__Host___37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__ListOfPro__Prope__3864608B" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Messages__Receiv__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Messages__Sender__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__PropertyA__Prope__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Reviews__Propert__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK_Properties_Host" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__Reviews__UserID__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="baharModel.FK__UserRoles__UserI__3A81B327" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

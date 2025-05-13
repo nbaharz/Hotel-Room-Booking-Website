@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="baharModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Amenities">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DetailedLocation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Wifi" Type="Boolean" />
+    <Property Name="Pool" Type="Boolean" />
+    <Property Name="Breakfast" Type="Boolean" />
+    <Property Name="AirConditioner" Type="Boolean" />
+    <Property Name="Lunch" Type="Boolean" />
+    <NavigationProperty Name="Properties" Relationship="Self.PropertyAmenities" FromRole="Amenities" ToRole="Properties" />
+  </EntityType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="HostID" Type="Int32" />
+    <Property Name="PropertyID" Type="Int32" />
+    <Property Name="CheckInDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CheckOutDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="NumberOfGuests" Type="Int32" Nullable="false" />
+    <Property Name="TotalPrice" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="StatusID" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Booking__HostID__571DF1D5" FromRole="Booking" ToRole="Users" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Booking__Propert__5812160E" FromRole="Booking" ToRole="Properties" />
+    <NavigationProperty Name="BookingStatus" Relationship="Self.FK__Booking__StatusI__59063A47" FromRole="Booking" ToRole="BookingStatus" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK__Booking__UserID__5629CD9C" FromRole="Booking" ToRole="Users" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK__Payments__Bookin__5BE2A6F2" FromRole="Booking" ToRole="Payments" />
+    <NavigationProperty Name="BookingStatus1" Relationship="baharModel1.FK_BookingStatus_Booking" FromRole="Booking" ToRole="BookingStatus" />
+  </EntityType>
+  <EntityType Name="BookingStatus">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="PropertyID" Type="Int32" />
+    <Property Name="RequestDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Booking" Relationship="Self.FK__Booking__StatusI__59063A47" FromRole="BookingStatus" ToRole="Booking" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__BookingSt__Custo__52593CB8" FromRole="BookingStatus" ToRole="Users" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__BookingSt__Prope__534D60F1" FromRole="BookingStatus" ToRole="Properties" />
+    <Property Name="BookingID" Type="Int32" />
+    <NavigationProperty Name="Booking1" Relationship="baharModel1.FK_BookingStatus_Booking" FromRole="BookingStatus" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CountryID" Type="Int32" />
+    <NavigationProperty Name="Country" Relationship="Self.FK__City__CountryID__3F466844" FromRole="City" ToRole="Country" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Propertie__CityI__4316F928" FromRole="City" ToRole="Properties" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="City" Relationship="Self.FK__City__CountryID__3F466844" FromRole="Country" ToRole="City" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Propertie__Count__4222D4EF" FromRole="Country" ToRole="Properties" />
+  </EntityType>
+  <EntityType Name="Images">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PropertyID" Type="Int32" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Images__Property__6754599E" FromRole="Images" ToRole="Properties" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ImageData" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SenderID" Type="Int32" />
+    <Property Name="ReceiverID" Type="Int32" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MessageDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Messages__Receiv__6B24EA82" FromRole="Messages" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK__Messages__Sender__6A30C649" FromRole="Messages" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Payments">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookingID" Type="Int32" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="PaymentStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Booking" Relationship="Self.FK__Payments__Bookin__5BE2A6F2" FromRole="Payments" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Properties">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="PricePerNight" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="MaxNumberOfGuests" Type="Int32" Nullable="false" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CountryID" Type="Int32" />
+    <Property Name="CityID" Type="Int32" />
+    <Property Name="HostID" Type="Int32" />
+    <NavigationProperty Name="Booking" Relationship="Self.FK__Booking__Propert__5812160E" FromRole="Properties" ToRole="Booking" />
+    <NavigationProperty Name="BookingStatus" Relationship="Self.FK__BookingSt__Prope__534D60F1" FromRole="Properties" ToRole="BookingStatus" />
+    <NavigationProperty Name="City" Relationship="Self.FK__Propertie__CityI__4316F928" FromRole="Properties" ToRole="City" />
+    <NavigationProperty Name="Country" Relationship="Self.FK__Propertie__Count__4222D4EF" FromRole="Properties" ToRole="Country" />
+    <NavigationProperty Name="Images" Relationship="Self.FK__Images__Property__6754599E" FromRole="Properties" ToRole="Images" />
+    <NavigationProperty Name="Reviews" Relationship="Self.FK__Reviews__Propert__60A75C0F" FromRole="Properties" ToRole="Reviews" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Properties_Host" FromRole="Properties" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.CustomerWishlist" FromRole="Properties" ToRole="Users" />
+    <NavigationProperty Name="Users2" Relationship="Self.ListOfProperties" FromRole="Properties" ToRole="Users" />
+    <NavigationProperty Name="Amenities" Relationship="Self.PropertyAmenities" FromRole="Properties" ToRole="Amenities" />
+    <Property Name="DetailedLocation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Reviews">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="PropertyID" Type="Int32" />
+    <Property Name="Rating" Type="Int32" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK__Reviews__Propert__60A75C0F" FromRole="Reviews" ToRole="Properties" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Reviews__UserID__5FB337D6" FromRole="Reviews" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserRoles">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="Role" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__UserRoles__UserI__3A81B327" FromRole="UserRoles" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Booking" Relationship="Self.FK__Booking__HostID__571DF1D5" FromRole="Users" ToRole="Booking" />
+    <NavigationProperty Name="Booking1" Relationship="Self.FK__Booking__UserID__5629CD9C" FromRole="Users" ToRole="Booking" />
+    <NavigationProperty Name="BookingStatus" Relationship="Self.FK__BookingSt__Custo__52593CB8" FromRole="Users" ToRole="BookingStatus" />
+    <NavigationProperty Name="Messages" Relationship="Self.FK__Messages__Receiv__6B24EA82" FromRole="Users" ToRole="Messages" />
+    <NavigationProperty Name="Messages1" Relationship="Self.FK__Messages__Sender__6A30C649" FromRole="Users" ToRole="Messages" />
+    <NavigationProperty Name="Properties" Relationship="Self.FK_Properties_Host" FromRole="Users" ToRole="Properties" />
+    <NavigationProperty Name="Reviews" Relationship="Self.FK__Reviews__UserID__5FB337D6" FromRole="Users" ToRole="Reviews" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK__UserRoles__UserI__3A81B327" FromRole="Users" ToRole="UserRoles" />
+    <NavigationProperty Name="Properties1" Relationship="Self.CustomerWishlist" FromRole="Users" ToRole="Properties" />
+    <NavigationProperty Name="Properties2" Relationship="Self.ListOfProperties" FromRole="Users" ToRole="Properties" />
+  </EntityType>
+  <EntityType Name="Raporla">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__Booking__HostID__571DF1D5">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="HostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Booking__Propert__5812160E">
+    <End Role="Properties" Type="Self.Properties" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Booking__StatusI__59063A47">
+    <End Role="BookingStatus" Type="Self.BookingStatus" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookingStatus">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Booking__UserID__5629CD9C">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payments__Bookin__5BE2A6F2">
+    <End Role="Booking" Type="Self.Booking" Multiplicity="0..1" />
+    <End Role="Payments" Type="Self.Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Booking">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="BookingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BookingSt__Custo__52593CB8">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="BookingStatus" Type="Self.BookingStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BookingStatus">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BookingSt__Prope__534D60F1">
+    <End Role="Properties" Type="Self.Properties" Multiplicity="0..1" />
+    <End Role="BookingStatus" Type="Self.BookingStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BookingStatus">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__City__CountryID__3F466844">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="City" Type="Self.City" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="City">
+        <PropertyRef Name="CountryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Propertie__CityI__4316F928">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Properties">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Propertie__Count__4222D4EF">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Properties">
+        <PropertyRef Name="CountryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Images__Property__6754599E">
+    <End Role="Properties" Type="Self.Properties" Multiplicity="0..1" />
+    <End Role="Images" Type="Self.Images" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Images">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__Receiv__6B24EA82">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="ReceiverID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__Sender__6A30C649">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="SenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reviews__Propert__60A75C0F">
+    <End Role="Properties" Type="Self.Properties" Multiplicity="0..1" />
+    <End Role="Reviews" Type="Self.Reviews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reviews">
+        <PropertyRef Name="PropertyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Properties_Host">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Properties">
+        <PropertyRef Name="HostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reviews__UserID__5FB337D6">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Reviews" Type="Self.Reviews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reviews">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserRoles__UserI__3A81B327">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CustomerWishlist">
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+  </Association>
+  <Association Name="ListOfProperties">
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+  </Association>
+  <Association Name="PropertyAmenities">
+    <End Role="Amenities" Type="Self.Amenities" Multiplicity="*" />
+    <End Role="Properties" Type="Self.Properties" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="baharEntities_" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Amenities" EntityType="Self.Amenities" />
+    <EntitySet Name="Booking" EntityType="Self.Booking" />
+    <EntitySet Name="BookingStatus" EntityType="Self.BookingStatus" />
+    <EntitySet Name="City" EntityType="Self.City" />
+    <EntitySet Name="Country" EntityType="Self.Country" />
+    <EntitySet Name="Images" EntityType="Self.Images" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" />
+    <EntitySet Name="Payments" EntityType="Self.Payments" />
+    <EntitySet Name="Properties" EntityType="Self.Properties" />
+    <EntitySet Name="Reviews" EntityType="Self.Reviews" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRoles" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Raporla" EntityType="Self.Raporla" />
+    <AssociationSet Name="FK__Booking__HostID__571DF1D5" Association="Self.FK__Booking__HostID__571DF1D5">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Booking__Propert__5812160E" Association="Self.FK__Booking__Propert__5812160E">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Booking__StatusI__59063A47" Association="Self.FK__Booking__StatusI__59063A47">
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Booking__UserID__5629CD9C" Association="Self.FK__Booking__UserID__5629CD9C">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payments__Bookin__5BE2A6F2" Association="Self.FK__Payments__Bookin__5BE2A6F2">
+      <End Role="Booking" EntitySet="Booking" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BookingSt__Custo__52593CB8" Association="Self.FK__BookingSt__Custo__52593CB8">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BookingSt__Prope__534D60F1" Association="Self.FK__BookingSt__Prope__534D60F1">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__City__CountryID__3F466844" Association="Self.FK__City__CountryID__3F466844">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="City" EntitySet="City" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Propertie__CityI__4316F928" Association="Self.FK__Propertie__CityI__4316F928">
+      <End Role="City" EntitySet="City" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Propertie__Count__4222D4EF" Association="Self.FK__Propertie__Count__4222D4EF">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Images__Property__6754599E" Association="Self.FK__Images__Property__6754599E">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="Images" EntitySet="Images" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__Receiv__6B24EA82" Association="Self.FK__Messages__Receiv__6B24EA82">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__Sender__6A30C649" Association="Self.FK__Messages__Sender__6A30C649">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reviews__Propert__60A75C0F" Association="Self.FK__Reviews__Propert__60A75C0F">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="Reviews" EntitySet="Reviews" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Properties_Host" Association="Self.FK_Properties_Host">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reviews__UserID__5FB337D6" Association="Self.FK__Reviews__UserID__5FB337D6">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Reviews" EntitySet="Reviews" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserRoles__UserI__3A81B327" Association="Self.FK__UserRoles__UserI__3A81B327">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="CustomerWishlist" Association="Self.CustomerWishlist">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="ListOfProperties" Association="Self.ListOfProperties">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="PropertyAmenities" Association="Self.PropertyAmenities">
+      <End Role="Amenities" EntitySet="Amenities" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookingStatus_Booking" Association="baharModel1.FK_BookingStatus_Booking">
+      <End Role="Booking" EntitySet="Booking" />
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_BookingStatus_Booking">
+    <End Type="baharModel1.Booking" Role="Booking" Multiplicity="0..1" />
+    <End Type="baharModel1.BookingStatus" Role="BookingStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Booking">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BookingStatus">
+        <PropertyRef Name="BookingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

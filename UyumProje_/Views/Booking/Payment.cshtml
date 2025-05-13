@@ -1,0 +1,34 @@
+﻿@model UyumProje_.ViewModel.PaymentViewModel
+
+@{
+    ViewBag.Title = "Payment";
+}
+
+<div class="container mt-4">
+    <h2>Payment Details</h2>
+    <p>Total Amount: @Model.TotalPrice</p>
+
+    @using (Html.BeginForm("Payment", "Booking", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <!-- Include payment details form here -->
+        <!-- For example, card information fields -->
+        <div class="form-group">
+            <label for="cardNumber">Card Number</label>
+            <input type="text" class="form-control" id="cardNumber" name="CardNumber" required />
+        </div>
+        <div class="form-group">
+            <label for="expiryDate">Expiry Date</label>
+            <input type="text" class="form-control" id="expiryDate" name="ExpiryDate" required />
+        </div>
+        <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="text" class="form-control" id="cvv" name="CVV" required />
+        </div>
+        <input type="hidden" name="Booking.ID" value="@Model.booking.ID" />
+        <input type="hidden" name="TotalPrice" value="@Model.TotalPrice" />
+
+        <button type="submit" class="btn btn-primary">Pay Now</button>
+    }
+</div>

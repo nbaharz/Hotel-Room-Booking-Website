@@ -1,0 +1,196 @@
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\UyumProje_.dll.config
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\UyumProje_.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\UyumProje_.pdb
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\csc.exe
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\csc.exe.config
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\csc.rsp
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\csi.exe
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\csi.exe.config
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\csi.rsp
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.AppContext.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Console.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.IO.Compression.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Net.Http.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.ValueTuple.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\vbc.exe
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\vbc.exe.config
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\vbc.rsp
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\VBCSCompiler.exe
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\EntityFramework.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\EntityFramework.SqlServer.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Helpers.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Mvc.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Razor.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Webpages.Deployment.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Webpages.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Webpages.Razor.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\EntityFramework.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\EntityFramework.SqlServer.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Razor.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Webpages.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Webpages.Deployment.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Webpages.Razor.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Helpers.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Web.Mvc.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\obj\Debug\UyumProje_.csproj.AssemblyReference.cache
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\obj\Debug\UyumProje_.csproj.CoreCompileInputs.cache
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\obj\Debug\UyumProje_.csproj.Up2Date
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\obj\Debug\UyumProje_.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\obj\Debug\UyumProje_.pdb
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Buffers.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Memory.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Numerics.Vectors.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Text.Encodings.Web.dll
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Buffers.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Memory.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Numerics.Vectors.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nurba\source\repos\UyumProje_\UyumProje_\bin\System.Text.Encodings.Web.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\UyumProje_.dll.config
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\UyumProje_.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\UyumProje_.pdb
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\csc.exe
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\csc.exe.config
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\csc.rsp
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\csi.exe
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\csi.exe.config
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\csi.rsp
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.AppContext.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Console.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.IO.Compression.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Net.Http.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.ValueTuple.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\vbc.exe
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\vbc.exe.config
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\vbc.rsp
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\VBCSCompiler.exe
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\EntityFramework.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\EntityFramework.SqlServer.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Buffers.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Memory.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Numerics.Vectors.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Text.Encodings.Web.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Helpers.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Mvc.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Razor.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Webpages.Deployment.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Webpages.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Webpages.Razor.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\EntityFramework.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\EntityFramework.SqlServer.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Buffers.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Memory.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Numerics.Vectors.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Text.Encodings.Web.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Razor.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Webpages.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Webpages.Deployment.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Webpages.Razor.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Helpers.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\System.Web.Mvc.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\obj\Debug\UyumProje_.csproj.AssemblyReference.cache
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\obj\Debug\UyumProje_.csproj.CoreCompileInputs.cache
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\obj\Debug\UyumProje_.csproj.Up2Date
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\obj\Debug\UyumProje_.dll
+C:\Users\nurba\Documents\VS Community\UyumProje_\UyumProje_\obj\Debug\UyumProje_.pdb

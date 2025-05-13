@@ -1,0 +1,57 @@
+﻿@model UyumProje_.ViewModel.PaymentViewModel
+
+@{
+    ViewBag.Title = "Process Payment";
+}
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Payment</h3>
+                </div>
+                <div class="card-body">
+                    @using (Html.BeginForm("ProcessPayment", "Booking", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.TotalPrice, new { @class = "form-label" })
+                            <p class="form-control-plaintext">@Model.TotalPrice.ToString("C")</p>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Card Number", new { @class = "form-label" })
+                            <input type="text" class="form-control" placeholder="Card Number" required />
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Expiry Date", new { @class = "form-label" })
+                            <input type="text" class="form-control" placeholder="MM/YY" required />
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("CVV", new { @class = "form-label" })
+                            <input type="text" class="form-control" placeholder="CVV" required />
+                        </div>
+
+                        @Html.HiddenFor(model => model.BookingID)
+
+                        <button type="submit" class="btn btn-primary">Pay Now</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

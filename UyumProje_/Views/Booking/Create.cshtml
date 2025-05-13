@@ -1,0 +1,191 @@
+﻿@model UyumProje_.ViewModel.BookingViewModel
+
+@{
+    ViewBag.Title = "Create Booking";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Create Booking</h3>
+                </div>
+                <div class="card-body">
+                    @using (Html.BeginForm("Create", "Booking", FormMethod.Post, new { id = "bookingForm" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Bookings.CheckInDate, new { @class = "form-label" })
+                            @Html.TextBoxFor(model => model.Bookings.CheckInDate, "{0:yyyy-MM-dd}", new { @class = "form-control", id = "input-start", type = "date" })
+                            @Html.ValidationMessageFor(model => model.Bookings.CheckInDate, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Bookings.CheckOutDate, new { @class = "form-label" })
+                            @Html.TextBoxFor(model => model.Bookings.CheckOutDate, "{0:yyyy-MM-dd}", new { @class = "form-control", id = "input-end", type = "date" })
+                            @Html.ValidationMessageFor(model => model.Bookings.CheckOutDate, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Bookings.NumberOfGuests, new { @class = "form-label" })
+                            @Html.EditorFor(model => model.Bookings.NumberOfGuests, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Bookings.NumberOfGuests, "", new { @class = "text-danger" })
+                        </div>
+
+                        @Html.HiddenFor(model => model.Bookings.PropertyID)
+                        @Html.HiddenFor(model => model.Bookings.TotalPrice, new { id = "hiddenTotalPrice" })
+                        @Html.Hidden("PricePerNight", Model.Properties.PricePerNight, new { id = "pricePerNight" })
+
+                        <button type="submit" class="btn btn-primary">Book Now</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Payment Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="paymentModalLabel">Payment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Total Price</label>
+                    <p id="paymentTotal" class="form-control-plaintext"></p>
+                </div>
+                @using (Html.BeginForm("ProcessPayment", "Booking", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.Hidden("BookingID", Model.Bookings.ID)
+
+                    <div class="form-group">
+                        @Html.Label("Card Number", new { @class = "form-label" })
+                        <input type="text" class="form-control" placeholder="Card Number" required />
+                    </div>
+
+                    <div class="form-group">
+                        @Html.Label("Expiry Date", new { @class = "form-label" })
+                        <input type="text" class="form-control" placeholder="MM/YY" required />
+                    </div>
+
+                    <div class="form-group">
+                        @Html.Label("CVV", new { @class = "form-label" })
+                        <input type="text" class="form-control" placeholder="CVV" required />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Pay Now</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        function updateTotalPrice() {
+            var checkInDate = new Date($('#input-start').val());
+            var checkOutDate = new Date($('#input-end').val());
+            var pricePerNight = parseFloat($('#pricePerNight').val());
+
+            if (checkInDate && checkOutDate && pricePerNight && checkInDate < checkOutDate) {
+                var totalDays = (checkOutDate - checkInDate) / (1000 * 60 * 60 * 24);
+                var totalPrice = totalDays * pricePerNight;
+
+                $('#hiddenTotalPrice').val(totalPrice.toFixed(2));
+                $('#paymentTotal').text(totalPrice.toFixed(2));
+            } else {
+                $('#hiddenTotalPrice').val('0.00');
+                $('#paymentTotal').text('0.00');
+            }
+        }
+
+        // Initialize date pickers
+        $('#input-start').datepicker({
+            format: 'yyyy-mm-dd', // Match the input type="date" format
+            autoclose: true
+        });
+
+        $('#input-end').datepicker({
+            format: 'yyyy-mm-dd', // Match the input type="date" format
+            autoclose: true
+        });
+
+        $('#input-start, #input-end').change(updateTotalPrice);
+        updateTotalPrice(); // Initial call to set the total price
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        function updateTotalPrice() {
+            var checkInDate = new Date($('#input-start').val());
+            var checkOutDate = new Date($('#input-end').val());
+            var pricePerNight = parseFloat($('#pricePerNight').val());
+
+            if (checkInDate && checkOutDate && pricePerNight && checkInDate < checkOutDate) {
+                var totalDays = (checkOutDate - checkInDate) / (1000 * 60 * 60 * 24);
+                var totalPrice = totalDays * pricePerNight;
+
+                $('#hiddenTotalPrice').val(totalPrice.toFixed(2));
+                $('#paymentTotal').text(totalPrice.toFixed(2));
+            } else {
+                $('#hiddenTotalPrice').val('0.00');
+                $('#paymentTotal').text('0.00');
+            }
+        }
+
+        function checkAvailability() {
+            var checkInDate = new Date($('#input-start').val());
+            var checkOutDate = new Date($('#input-end').val());
+
+            if (checkInDate && checkOutDate) {
+                $.ajax({
+                    url: '@Url.Action("CheckAvailability", "Booking")',
+                    type: 'POST',
+                    data: {
+                        propertyId: $('#propertyId').val(),
+                        startDate: checkInDate.toISOString(),
+                        endDate: checkOutDate.toISOString()
+                    },
+                    success: function (response) {
+                        if (!response.isAvailable) {
+                            alert('Seçilen tarih aralığı mevcut rezervasyonlarla çakışıyor.');
+                            $('#bookNowBtn').prop('disabled', true);
+                        } else {
+                            $('#bookNowBtn').prop('disabled', false);
+                        }
+                    }
+                });
+            }
+        }
+
+        // Initialize date pickers
+        $('#input-start').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true
+        });
+
+        $('#input-end').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true
+        });
+
+        $('#input-start, #input-end').change(function () {
+            updateTotalPrice();
+            checkAvailability();
+        });
+
+        // Initial call to set the total price
+        updateTotalPrice();
+    });
+</script>
+

@@ -1,0 +1,67 @@
+﻿@model UyumProje_.ViewModel.AdminViewModel
+
+@{
+    ViewBag.Title = "Admin Panel";
+}
+
+<h2>Admin Panel</h2>
+
+<!-- Users Table -->
+<h3>Users</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.ID</td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>
+                    <form method="post" action="@Url.Action("DeleteUser", "Admin")" style="display:inline;">
+                        <input type="hidden" name="userId" value="@user.ID" />
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Properties Table -->
+<h3>Properties</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price Per Night</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var property in Model.Properties)
+        {
+            <tr>
+                <td>@property.ID</td>
+                <td>@property.Title</td>
+                <td>@property.Description</td>
+                <td>@property.PricePerNight</td>
+                <td>
+                    <form method="post" action="@Url.Action("DeleteProperty", "Admin")" style="display:inline;">
+                        <input type="hidden" name="propertyId" value="@property.ID" />
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

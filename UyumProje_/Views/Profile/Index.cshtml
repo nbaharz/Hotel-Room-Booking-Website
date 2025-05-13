@@ -1,0 +1,160 @@
+﻿@model UyumProje_.ViewModel.ProfileViewModel
+@using UyumProje_.Methods
+
+<h2>Hoşgeldiniz, @Model.UserName</h2>
+
+@if (Model.UserRoles.Contains("Host"))
+{
+    <h3>Evleriniz</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+                <th>Misafir Sayısı</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var property in Model.UserProperties)
+            {
+                <tr>
+                    <td>@property.Title</td>
+                    <td>@property.Description</td>
+                    <td>@property.Category</td>
+                    <td>@property.PricePerNight</td>
+                    <td>@property.MaxNumberOfGuests</td>
+                    <td>
+                        <a href="~/Profile/Edit/@property.ID" class="btn btn-sm btn-primary">Düzenle</a>
+                        <a href="~/Profile/Delete/@property.ID" class="btn btn-sm btn-danger" onclick="return confirm('Bu mülkü silmek istediğinize emin misiniz?');">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Mülklerinize ait Rezervasyonlar</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Rezervasyon ID</th>
+                <th>Başlık</th>
+                <th>Giriş Tarihi</th>
+                <th>Çıkış Tarihi</th>
+                <th>Toplam Fiyat</th>
+                <th>Durum</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model.UserBookings)
+            {
+                var status = Model.BookingStatuses.FirstOrDefault(bs => bs.BookingID == booking.ID);
+                <tr>
+                    <td>@booking.ID</td>
+                    <td>@Model.UserProperties.FirstOrDefault(p => p.ID == booking.PropertyID)?.Title ?? "Mülk bulunamadı"</td>
+                    <td>@booking.CheckInDate.ToString("dd/MM/yyyy")</td>
+                    <td>@booking.CheckOutDate.ToString("dd/MM/yyyy")</td>
+                    <td>@booking.TotalPrice</td>
+                    <td>@status?.Status</td>
+                    <td>
+                        @if (status?.Status == "Pending")
+                        {
+                            <a href="~/Profile/ApproveBooking/@booking.ID" class="btn btn-sm btn-success">Onayla</a>
+                        }
+                        <a href="~/Profile/DeleteBooking/@booking.ID" class="btn btn-sm btn-danger" onclick="return confirm('Bu rezervasyonu silmek istediğinize emin misiniz?');">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (Model.UserRoles.Contains("Consumer"))
+{
+    <h3>Favoriler</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+                <th>Misafir Sayısı</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CustomerWishlist)
+            {
+                var property = item.Property;
+                if (property != null)
+                {
+                    <tr>
+                        <td>@property.Title</td>
+                        <td>@property.Description</td>
+                        <td>@property.Category</td>
+                        <td>@property.PricePerNight</td>
+                        <td>@property.MaxNumberOfGuests</td>
+                        <td>
+                            <a href="~/Property/Details/@property.ID" class="btn btn-sm btn-info">Detay</a>
+                            <a href="~/Profile/RemoveFromWishlist/@item.ID" class="btn btn-sm btn-danger" onclick="return confirm('Bu öğeyi favorilerden çıkarmak istediğinize emin misiniz?');">Kaldır</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <h3>Rezervasyonlar</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Rezervasyon ID</th>
+                <th>Başlık</th>
+                <th>Giriş Tarihi</th>
+                <th>Çıkış Tarihi</th>
+                <th>Toplam Fiyat</th>
+                <th>Durum</th>
+                <th>Yorum</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model.UserBookings)
+            {
+                var property = Model.Properties.FirstOrDefault(p => p.ID == booking.PropertyID);
+                var status = Model.BookingStatuses.FirstOrDefault(bs => bs.BookingID == booking.ID);
+                var review = Model.Reviews.FirstOrDefault(r => r.PropertyID == property.ID && r.UserID == UserGet.GetUserId(User));
+
+                <tr>
+                    <td>@booking.ID</td>
+                    <td>@property.Title</td>
+                    <td>@booking.CheckInDate.ToString("dd/MM/yyyy")</td>
+                    <td>@booking.CheckOutDate.ToString("dd/MM/yyyy")</td>
+                    <td>@booking.TotalPrice</td>
+                    <td>@status?.Status ?? "Durum bulunamadı"</td>
+                    <td>
+                        @if (review == null)
+                        {
+                            <form action="@Url.Action("SubmitReview", "Profile")" method="post">
+                                <input type="hidden" name="BookingID" value="@booking.ID" />
+                                <textarea name="Comment" placeholder="Yorumunuzu yazın"></textarea>
+                                <input type="number" name="Rating" min="1" max="5" placeholder="Puan (1-5)" />
+                                <button type="submit" class="btn btn-primary">Yorum Yap</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <div>
+                                <p>Rating: @review.Rating</p>
+                                <p>Comment: @review.Comment</p>
+                            </div>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

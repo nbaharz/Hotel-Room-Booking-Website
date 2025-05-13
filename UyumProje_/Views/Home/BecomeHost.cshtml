@@ -1,0 +1,134 @@
+﻿@{
+    ViewBag.Title = "Add Property";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<h2 class="mt-4 text-center">@ViewBag.Title</h2>
+@if (ViewBag.Message != null)
+{
+    <div class="d-flex justify-content-center mt-4">
+        <div class="alert alert-success text-center" style="display: inline-block;">
+            @ViewBag.Message
+        </div>
+    </div>
+}
+else
+{
+
+<form asp-action="BecomeHost" enctype="multipart/form-data" method="post" class="mt-4 p-4 border rounded shadow-sm bg-light">
+    <div class="form-group">
+        <label for="Name">Mülkünüze bir isim verin</label>
+        <input type="text" class="form-control" id="Name" name="Title" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Category">Kategorisini seçiniz</label>
+        <select class="form-control" id="Category" name="Category" required>
+            <option value="">Seçiniz...</option>
+            <option value="Ev">Ev</option>
+            <option value="Otel">Otel</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Country">Ülke</label>
+        <select class="form-control" id="Country" name="Country" required>
+            <!-- Ülkeleri buraya ekleyin -->
+            <option value="">Seçiniz...</option>
+            <option value="Türkiye">Türkiye</option>
+            <option value="ABD">ABD</option>
+            <!-- Diğer ülkeler -->
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="City">Şehir</label>
+        <select class="form-control" id="City" name="City" required>
+            <!-- Şehirleri buraya ekleyin -->
+            <option value="">Seçiniz...</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <!-- Diğer şehirler -->
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Detaylı Adres</label>
+        <input type="text" class="form-control" id="Address" name="DetailedLocation" required />
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="MaxGuests">Maksimum kaç misafir ağırlayabilirsiniz?</label>
+            <input type="number" class="form-control" id="MaxGuests" name="MaxNumberOfGuests" required />
+        </div>
+        @*<div class="form-group col-md-4">
+                <label for="Beds">Yatak Sayısı</label>
+                <input type="number" class="form-control" id="Beds" name="Beds" required />
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Baths">Banyo Sayısı</label>
+                <input type="number" class="form-control" id="Baths" name="Baths" required />
+            </div>*@
+    </div>
+
+    <div class="form-group">
+        <label>Ekstra imkanlardan hangilerini sağlıyorsunuz?</label><br />
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="Wifi" name="Wifi" value="true">
+            <label class="form-check-label" for="Wifi"><i class="fas fa-wifi"></i> Wifi</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="Pool" name="Pool" value="true">
+            <label class="form-check-label" for="Pool"><i class="fas fa-swimming-pool"></i> Havuz</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="Breakfast" name="Breakfast" value="true">
+            <label class="form-check-label" for="Breakfast"><i class="fas fa-utensils"></i> Kahvaltı</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="AirConditioner" name="AirConditioner" value="true">
+            <label class="form-check-label" for="AirConditioner"><i class="fas fa-wind"></i> Klima</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="Lunch" name="Lunch" value="true">
+            <label class="form-check-label" for="Lunch"><i class="fas fa-hamburger"></i> Öğle Yemeği</label>
+        </div>
+        @*<div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="Parking" name="Parking" value="Parking">
+                <label class="form-check-label" for="Parking"><i class="fas fa-parking"></i> Ücretsiz Otopark</label>
+            </div>*@
+    </div>
+
+    <div class="form-group">
+        <label for="PricePerNight">Gecelik Fiyat</label>
+        <input type="number" class="form-control" id="PricePerNight" name="PricePerNight" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Description">Detaylı Açıklama</label>
+        <textarea class="form-control" id="Description" name="Description" rows="5" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="Photo1">Fotoğraf 1</label>
+        <input type="file" class="form-control-file" id="Photo1" name="Photo1" accept="image/*" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Photo2">Fotoğraf 2</label>
+        <input type="file" class="form-control-file" id="Photo2" name="Photo2" accept="image/*" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Photo3">Fotoğraf 3</label>
+        <input type="file" class="form-control-file" id="Photo3" name="Photo3" accept="image/*" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Kaydet</button>
+</form>
+}
